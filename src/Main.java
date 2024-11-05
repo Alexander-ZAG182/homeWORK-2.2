@@ -74,7 +74,7 @@ public class Main {
 
       System.out.println("Задание 7");
       byte lessKg = 7 ;
-      int lessGram = 7 * 1000 ;
+      int lessGram = lessKg * 1000 ;
       int lessMin = 250 ;
       int lessMax= 500;
       System.out.println(lessGram / lessMin);
@@ -90,12 +90,13 @@ public class Main {
       int mashaNew = masha + mashaUp ;
       int denisNew = denis + denisUp ;
       int kristinaNew = kristina + kristinaUp ;
-      int mashaYear = masha * 12 ;
-      int denisYear = denis * 12 ;
-      int kristinaYear = kristina * 12 ;
-      int mashaYearUp = mashaNew * 12 ;
-      int denisYearUp = denisNew * 12 ;
-      int kristinaYearUp = kristinaNew * 12 ;
+      int mont = 12 ;
+      int mashaYear = masha * mont ;
+      int denisYear = denis * mont ;
+      int kristinaYear = kristina * mont ;
+      int mashaYearUp = mashaNew * mont ;
+      int denisYearUp = denisNew * mont ;
+      int kristinaYearUp = kristinaNew * mont ;
       int mashaDifference = mashaYearUp - mashaYear ;
       int denisDifference = denisYearUp - denisYear ;
       int kristinaDifference = kristinaYearUp - kristinaYear;
