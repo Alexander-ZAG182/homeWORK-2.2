@@ -7,7 +7,7 @@ public class Main {
       short c = 30000;
       long d = 1000000000L;
       float e = 3.75F;
-      double f = 3.123456789F;
+      double f = 3.123456789;
         System.out.println( "Значение переменной a с типом int равно " + a);
         System.out.println( "Значение переменной b с типом byte равно " + b);
         System.out.println( "Значение переменной c с типом short равно " + c);
@@ -16,20 +16,20 @@ public class Main {
         System.out.println( "Значение переменной f с типом double равно " + f);
 
       System.out.println("Задание 2");
-        float ab = 27.12F;
-        long bc = 987678965549L ;
-        float cd = 2.786F ;
-        short de = 569 ;
-        short ef = -159 ;
-        short fg = 27897 ;
-        byte gh = 67 ;
+        float aB = 27.12F;
+        long bC = 987678965549L ;
+        float cD = 2.786F ;
+        short dE = 569 ;
+        short eF = -159 ;
+        short fG = 27897 ;
+        byte gH = 67 ;
 
       System.out.println("Задание 3");
-        byte lP = 23 ;
-        byte aS = 27 ;
-        byte eA = 30 ;
+        byte teacher1 = 23 ;
+        byte teacher2 = 27 ;
+        byte teacher3 = 30 ;
         short sheets = 480 ;
-        int students = lP + aS + eA;
+        int students = teacher1 + teacher2 + teacher3;
         System.out.println("На каждого ученика расчитано " + sheets / students + " листов бумаги " );
 
       System.out.println("Задание 4");
